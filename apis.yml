@@ -1,9 +1,28 @@
 aid: story-health
 name: Story Health
-description: Story Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Story Health was a virtual specialty care company founded in 2020 by Tom Stanis
+  (a Google Verily co-founder), Nikhil Roy, and cardiologist Dr. Ashul Govil. Its
+  platform went beyond video visits to give specialty clinicians digital tools for
+  continuous, protocol-driven care at scale, focusing initially on cardiology with
+  care-plan optimization, therapy titration, and evidence-based adjustments between
+  visits. The company raised roughly $27M (a $4M seed in 2020 and a $22.6M Series A
+  in 2022) from investors including General Catalyst and Define Ventures, and was
+  acquired by Innovaccer in September 2025. It operates a marketing web presence but
+  publishes no public developer, API, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/story-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5fa9c92d737a4a6a5e872672/5fac6ed49afd8b8d676c355d_SH_logo_badge_256px%401x.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Virtual Care
+- Specialty Care
+- Cardiology
+- Telehealth
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/story-health-domain-security.yml
+- type: Website
+  url: https://www.storyhealth.com
+- type: PrivacyPolicy
+  url: https://www.storyhealth.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
